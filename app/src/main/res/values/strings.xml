@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">HelloAndroid</string>
+    <string name="header">Udacity</string>
+    <string name="content">Udacity is where lifelong learners come to learn the skills they need, to land the jobs they want, to build the lives they deserve.</string>
+    <string name="address">2465 Latham St, Mountain View, CA 94043</string>
+    <string name="phone">650–555–5555</string>
+    <string name="siteurl">www.udacity.com</string>
+    <string name="share">share</string>
+
+</resources>
