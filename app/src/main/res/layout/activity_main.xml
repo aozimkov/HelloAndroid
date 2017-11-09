@@ -7,13 +7,14 @@
     android:orientation="vertical"
     tools:context="com.example.android.helloandroid.MainActivity">
 
+
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:layout_gravity="center"
         android:src="@drawable/ic_udacity_logo"
-        android:contentDescription="Logo"/>
+        android:contentDescription="@string/logo"/>
 
     <include layout="@layout/header"/>
 
@@ -27,4 +28,6 @@
     </ScrollView>
 
     <include layout="@layout/buttons"/>
+
+
 </LinearLayout>

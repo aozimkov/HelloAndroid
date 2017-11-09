@@ -9,7 +9,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Udacity is where lifelong learners come to learn the skills they need, to land the jobs they want, to build the lives they deserve."
+        android:text="@string/content"
         android:textAppearance="?android:textAppearanceMedium"
         android:textColor="@android:color/white" />
 
@@ -23,22 +23,29 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="2465 Latham St, Mountain View, CA 94043"
+        android:text="@string/address"
         android:textAppearance="?android:textAppearanceSmall"
-        android:textColor="@android:color/white" />
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="16dp"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="650-555-5555"
+        android:text="@string/phone"
         android:textAppearance="?android:textAppearanceLarge"
-        android:textColor="@android:color/white" />
+        android:textColor="@android:color/white"
+        android:textColorLink="@android:color/white"
+        android:autoLink="phone"
+        />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="www.udacity.com"
+        android:text="@string/siteurl"
         android:textAppearance="?android:textAppearanceSmall"
-        android:textColor="@android:color/white" />
+        android:textColor="@android:color/white"
+        android:autoLink="web"
+        android:textColorLink="@android:color/white"
+        android:layout_marginTop="16dp"/>
 
 </LinearLayout>
